@@ -25,12 +25,12 @@ upload ke folder htdocs atau folder root web
 ```
 
 
-## First VERSION 0.1a
+## First VERSION 0.0.1a
 
 - menambahkan halaman 404
 
 
-## Screenshots v0.1a
+## Screenshots v0.0.1a
 
 ![halaman 404](https://i.ibb.co/HDMrT8x/404.png)
 
