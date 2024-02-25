@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id" >
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="module/module_404/404.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[404]SPB->(SISTEM PENDATAAN BARANG)</title>
+    <meta name="description" content="APLIKASI PENDATAAN BARANG SMKS FARMASI BINTANG HARAPAN 2024">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="SPB, SISTEM PENDATAAN BARANG">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="module/module_404/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="module/module_404/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="module/module_404/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="module/module_404/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="module/module_404/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="module/module_404/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="module/module_404/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="module/module_404/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="module/module_404/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="module/module_404/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="module/module_404/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="module/module_404/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="module/module_404/favicon-16x16.png">
+<link rel="manifest" href="module/module_404/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="module/module_404/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+  <div id='oopss'>
+    <div id='error-text'>
+        <img src="module/module_404/sad404.svg" alt="404">
+        <span>404 PAGE</span>
+        <p id="link-halaman" class="p-a">
+           HALAMAN TIDAK DITEMUKAN</p>
+        <p class="p-b">
+        Kembali ke halaman sebelumnya dalam -> [<span id="countdown">4</span>]
+        </p>
+    </div>
+</div>
+  
+<script>
+  document.getElementById("link-halaman").textContent = "[" + window.location.href + "]" + "<--" + "TIDAK DAPAT DITEMUKAN";
+    setTimeout(function() {
+      window.history.back();
+    }, 4000);
+    var countdown = document.getElementById("countdown");
+var timeLeft = 4;
+
+var interval = setInterval(function() {
+  timeLeft--;
+  countdown.textContent = timeLeft;
+
+  if (timeLeft === 0) {
+    clearInterval(interval);
+    window.location.href = "javascript:history.go(-1)";
+  }
+}, 1000);
+    </script>
+
+</body>
+
+</html>
