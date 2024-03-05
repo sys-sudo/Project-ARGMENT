@@ -34,3 +34,6 @@ upload ke folder htdocs atau folder root web
 
 ![halaman 404](https://i.ibb.co/HDMrT8x/404.png)
 
+## VERSION 0.0.1b
+- menambahkan module baru
+
