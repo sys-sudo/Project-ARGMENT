@@ -1,0 +1,16 @@
+.garis {
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(to right, #ccc, #ddd, #ccc);
+  margin: 10px auto;
+  animation: garis-animasi 1s linear infinite;
+}
+
+@keyframes garis-animasi {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
